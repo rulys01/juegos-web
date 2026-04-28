@@ -116,20 +116,36 @@
 
         // --- DATOS ---
         const ahorcadoWords = [
+            { w: 'JUSTIFICAR', h: 'Botón en el cual el texto se alinea en ambos lados.' },
+            { w: 'NEGRITA', h: 'Botón en el cual el texto se alinea en ambos lados.' },
+            { w: 'BUSCAR', h: 'Buscar una palabra o frase en el documento.' },
             { w: 'ARCHIVO', h: 'Vista de archivo donde se gestiona guardar e imprimir.' },
             { w: 'TABULADOR', h: 'Tecla para alinear texto en columnas fijas.' },
             { w: 'MACROS', h: 'Serie de instrucciones grabadas para automatizar tareas.' },
             { w: 'ESTILOS', h: 'Conjunto de formatos predefinidos aplicables a un texto.' },
             { w: 'ONEDRIVE', h: 'Servicio en la nube de Microsoft para compartir documentos.' }
+
         ];
 
         const quizQuestions = [
+            {
+                q: "Pegar el contenido del portapapeles?",
+                o: ["Ctrl + Y", "Ctrl + Z", "Ctrl + V", "Alt + Backspace"],
+                c: 2,
+                r: "Ctrl + V es el atajo en el cual pega lo acomulado en el portapapeles."
+            },
             {
                 q: "¿Qué tecla se utiliza para deshacer la última acción en Word?",
                 o: ["Ctrl + Y", "Ctrl + Z", "Ctrl + D", "Alt + Backspace"],
                 c: 1,
                 r: "Ctrl + Z es el atajo universal para deshacer. Ctrl + Y es para rehacer."
             },
+            {
+                q: "Reemplazar texto por otro automáticamente?",
+                o: ["Ctrl + B", "Ctrl + L", "F7", "Ctrl + Alt + K"],
+                c: 1,
+                r: "Word maneja esta función para la optimización de tiempo en buscar y reemplazar."
+            },            
             {
                 q: "Para crear una tabla de contenidos automática, primero debemos:",
                 o: ["Insertar imágenes", "Aplicar estilos de Título", "Configurar los márgenes", "Usar el buscador"],
@@ -160,7 +176,9 @@
             { id: 1, txt: 'Ctrl + G', p: 'A' }, { id: 2, txt: 'Guardar', p: 'A' },
             { id: 3, txt: 'Ctrl + P', p: 'B' }, { id: 4, txt: 'Imprimir', p: 'B' },
             { id: 5, txt: 'F7', p: 'C' },       { id: 6, txt: 'Ortografía', p: 'C' },
-            { id: 7, txt: 'Ctrl + K', p: 'D' }, { id: 8, txt: 'Cursiva', p: 'D' }
+            { id: 7, txt: 'Ctrl + K', p: 'D' }, { id: 8, txt: 'Cursiva', p: 'D' },
+            { id: 9, txt: 'Ctrl + J', p: 'E' }, { id: 10, txt: 'Justificar texto', p: 'E' },
+            { id: 11, txt: 'Ctrl + Q', p: 'F' }, { id: 12, txt: 'Alinear a la izquierda', p: 'F' },
         ];
 
         // --- LÓGICA AHORCADO ---
