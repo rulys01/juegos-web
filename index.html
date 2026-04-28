@@ -36,7 +36,7 @@
         <!-- BIENVENIDA -->
         <div id="welcome-screen" class="text-center py-12">
             <h2 class="text-3xl font-extrabold text-slate-800 mb-4">Repaso Técnico del manejo de MS Word</h2>
-            <p class="text-slate-600 mb-8 text-lg">Selecciona una actividad para poner a prueba lo aprendido en el curso de aulaClic.</p>
+            <p class="text-slate-600 mb-8 text-lg">Selecciona una actividad para poner a prueba lo aprendido.</p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div onclick="switchGame('ahorcado')" class="bg-white p-6 rounded-xl shadow cursor-pointer hover:scale-105 transition border-t-4 border-blue-500">
                     <div class="text-4xl mb-2">😵</div>
@@ -262,9 +262,9 @@
                 document.getElementById('quiz-content').innerHTML = `
                     <div class="text-center py-8">
                         <p class="text-4xl mb-4">🏆</p>
-                        <h3 class="text-2xl font-bold text-slate-800">¡Has terminado el repaso!</h3>
+                        <h3 class="text-2xl font-bold text-slate-800">¡Has terminado!</h3>
                         <p class="text-slate-500 mt-2">Ahora conoces mejor las herramientas de Word.</p>
-                        <button onclick="switchGame('trivia')" class="mt-6 text-blue-600 font-bold underline">Repetir examen</button>
+                        <button onclick="switchGame('trivia')" class="mt-6 text-blue-600 font-bold underline">Jugar de nuevo</button>
                     </div>`;
             }
         }
